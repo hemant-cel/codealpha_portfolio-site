@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemant Gupta — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Progress rail -->
+<div class="rail" aria-hidden="true"><div class="rail-fill" id="railFill"></div></div>
+
+<button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<nav class="sidenav" id="sidenav">
+  <div class="side-mark">HG</div>
+  <ul>
+    <li><a href="#about" class="nav-link" data-label="01">About</a></li>
+    <li><a href="#skills" class="nav-link" data-label="02">Skills</a></li>
+    <li><a href="#work" class="nav-link" data-label="03">Projects</a></li>
+    <li><a href="#education" class="nav-link" data-label="04">Education</a></li>
+    <li><a href="#certifications" class="nav-link" data-label="05">Certs</a></li>
+    <li><a href="#resume" class="nav-link" data-label="06">Resume</a></li>
+    <li><a href="#contact" class="nav-link" data-label="07">Contact</a></li>
+  </ul>
+  <div class="side-foot">Noida, India<br>Open to internships &amp; full-stack roles</div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <p class="hero-eyebrow">Full Stack Developer · ML Enthusiast</p>
+    <h1 class="hero-title">
+      Hemant builds full-stack<br>
+      apps, and teaches models<br>
+      to make <em>sense</em> of data.
+    </h1>
+    <p class="hero-sub">
+      B.Tech CSE (AI &amp; ML) student building web applications with
+      HTML, CSS, JavaScript, PHP and MySQL — and training machine
+      learning models with Python and Scikit-learn. Currently
+      completing a frontend internship at CodeAlpha.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See the work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+    <div class="hero-stack">
+      <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>Python</span><span>Scikit-learn</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">
+        I'm a B.Tech Computer Science Engineering (AI &amp; ML) student
+        with hands-on experience across full-stack web development and
+        machine learning — currently at 8.16 CGPA and always building
+        something on the side.
+      </p>
+      <div class="about-body">
+        <p>
+          On the web side, I work with HTML, CSS, JavaScript, PHP and
+          MySQL to build complete applications, not just front ends —
+          from the interface down to the database. I have a strong
+          foundation in Data Structures and Algorithms, which shapes
+          how I think about the code underneath the UI.
+        </p>
+        <p>
+          On the ML side, I use Python and Scikit-learn to build and
+          tune classification and regression models, with real
+          experience taking a project from raw data to a working,
+          evaluated result. I'm interested in roles that let me keep
+          both of these skill sets sharp.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript — responsive layouts, DOM manipulation, and interactive UI.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Backend &amp; Databases</h3>
+        <p>PHP, REST APIs, MySQL, MongoDB — building and connecting the server side of an app.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Machine Learning</h3>
+        <p>Supervised, unsupervised &amp; reinforcement learning; regression, classification, clustering with Pandas, NumPy, Scikit-learn and Matplotlib.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Languages &amp; Tools</h3>
+        <p>Java, Python, Git &amp; GitHub, VS Code — day-to-day tooling for building and shipping projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Selected work</h2>
+    </div>
+    <div class="work-list">
+
+      <article class="work-item">
+        <div class="work-info">
+          <h3>Loan Approval Prediction</h3>
+          <p>An ML model that predicts loan approval from applicant details such as income and credit history. Compared classification algorithms and picked the best performer, reaching 89% accuracy after data cleaning, feature engineering and tuning.</p>
+          <div class="work-tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Matplotlib</span></div>
+        </div>
+        <div class="work-links">
+          <a href="#" class="work-link work-link-muted">Source →</a>
+        </div>
+      </article>
+
+      <article class="work-item">
+        <div class="work-info">
+          <h3>ERP Management System</h3>
+          <p>A web-based system to manage employee records, departments and attendance, with a clean interface for adding, editing, viewing and deleting records. Includes automated data preprocessing and evaluation to streamline the workflow.</p>
+          <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+        </div>
+        <div class="work-links">
+          <a href="#" class="work-link work-link-muted">Source →</a>
+        </div>
+      </article>
+
+      <article class="work-item">
+        <div class="work-info">
+          <h3>Retro Vinyl — Music Player</h3>
+          <p>A browser-based music player with a spinning-disc now-playing view, scrubbable progress bar, volume control and a click-to-play playlist. Built with the Web Audio element and vanilla JS as part of the CodeAlpha internship.</p>
+          <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="work-links">
+          <a href="../music-player/index.html" class="work-link">View project →</a>
+          <a href="#" class="work-link work-link-muted">Source →</a>
+        </div>
+      </article>
+
+      <article class="work-item">
+        <div class="work-info">
+          <h3>This Portfolio</h3>
+          <p>The site you're looking at — a single-page portfolio with a scroll-aware side nav, a reveal-on-scroll hero, and a reading-progress rail, built without any frameworks.</p>
+          <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="work-links">
+          <a href="#top" class="work-link">Back to top →</a>
+          <a href="#" class="work-link work-link-muted">Source →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Education</h2>
+    </div>
+    <div class="work-list">
+      <article class="work-item">
+        <div class="work-info">
+          <h3>B.Tech — Computer Science Engineering (AI &amp; ML)</h3>
+          <p>Noida Institute of Engineering and Technology, Greater Noida · 2023 – 2027 · CGPA 8.16/10.0</p>
+        </div>
+      </article>
+      <article class="work-item">
+        <div class="work-info">
+          <h3>Class XII</h3>
+          <p>Nav Jeevan Mission School, Kushinagar, Uttar Pradesh · 2022 – 2023</p>
+        </div>
+      </article>
+      <article class="work-item">
+        <div class="work-info">
+          <h3>Class X</h3>
+          <p>Nav Jeevan Mission School, Kushinagar, Uttar Pradesh · 2020 – 2021</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Certifications</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>JavaScript Essentials</h3>
+        <p>Infosys Springboard — core JavaScript: functions, DOM manipulation, events and basic web development.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Introduction to Cybersecurity</h3>
+        <p>Cisco Networking Academy — network security fundamentals, common online threats and how to protect systems and data.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Machine Learning Virtual Internship</h3>
+        <p>Prodigy InfoTech — real-world ML tasks including building and testing predictive models.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section" id="resume">
+    <div class="section-head">
+      <span class="section-num">06</span>
+      <h2>Resume</h2>
+    </div>
+    <div class="resume-box">
+      <div>
+        <h3>Hemant Gupta</h3>
+        <p>Full Stack Developer · ML Enthusiast · Frontend Intern, CodeAlpha</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <span class="section-num">07</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <p class="contact-lead">
+        Have a project in mind, or an internship-review question?
+        My inbox is open.
+      </p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:hemantgupta4662@gmail.com">hemantgupta4662@gmail.com</a></li>
+        <li><span>Phone</span><span class="contact-plain">9341708566</span></li>
+        <li><span>GitHub</span><a href="https://github.com/hemant-cel" target="_blank" rel="noopener">github.com/hemant-cel</a></li>
+        <li><span>LinkedIn</span><a href="https://linkedin.com/in/hemant-gupta-955049301" target="_blank" rel="noopener">linkedin.com/in/hemant-gupta-955049301</a></li>
+        <li><span>Location</span><span class="contact-plain">Noida, India</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Hemant Gupta — Built for the CodeAlpha Frontend Internship, Task 3</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
